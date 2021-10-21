@@ -2,6 +2,7 @@ import {React} from 'react'
 import axios from 'axios'
 import {useState} from 'react'
 import DisplayAnswer from './displayAnswer'
+import ShowAllGuesses from './showAllGuesses';
 
 
 const FormGuess = () => {
@@ -30,6 +31,12 @@ const FormGuess = () => {
             setNom('')
             setGuess('')
         });
+
+        return (
+            <div>
+                
+            </div>
+        )
     }
 
     return (
@@ -50,6 +57,7 @@ const FormGuess = () => {
                 <input type='submit' value='coup de dé' className='btn btn-block'/>
             </form>
             <DisplayAnswer />
+            <ShowAllGuesses />
         </div>
     )
 }

@@ -1,12 +1,11 @@
 import {React} from 'react'
 
 const ShowGuess = ({guess}) => {
-    console.log(guess)
     return (
         <tr>
             <td>{guess.nom}</td>
-            <td>{guess.nom}</td>
-            <td>{guess.nom}</td>
+            <td>{guess.guessUtilisateur}</td>
+            <td>{guess.numeroRandom}</td>
         </tr>
     )
 }

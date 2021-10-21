@@ -31,12 +31,6 @@ const FormGuess = () => {
             setNom('')
             setGuess('')
         });
-
-        return (
-            <div>
-                
-            </div>
-        )
     }
 
     return (
